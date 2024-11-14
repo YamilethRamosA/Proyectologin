@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EAE6F8;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tenedor1 {
+    display: flex;
+    background-color: #EAE6F8; 
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.tenedor2 {
+    width: 100%;
+    padding: 80px 60px; 
+    background: linear-gradient(135deg, #6BFF9B, #9E68FF);
+    color: rgb(46, 43, 43);
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.tenedor2 h1 {
+    font-size: 3rem; 
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start; 
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.feature h2 {
+    font-size: 1.75rem; 
+    margin-bottom: 5px; 
+}
+
+.feature p {
+    font-size: 1rem;
+    max-width: 400px; 
+    line-height: 1.5; 
+}
+
+.brand {
+    margin-top: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.tenedor3 {
+    position: absolute; 
+    top: 50%; 
+    right: 5%; 
+    transform: translateY(-50%); 
+    width: 35%; 
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 10; 
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+button {
+    padding: 15px;
+    background-color: #00D079;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.oauth {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.oauth button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color:#9E68FF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
